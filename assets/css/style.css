@@ -851,6 +851,10 @@ input:focus,
   gap: 16px;
 }
 
+.wrapper-payment .item:nth-child(1) {
+  gap: 0;
+}
+
 .wrapper-payment .item.item-card {
   padding: 0;
 }
