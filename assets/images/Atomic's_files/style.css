@@ -1,0 +1,54 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body,
+button {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Typography */
+@font-face {
+  font-family: "Alliance No.1", sans-serif;
+  src: url("/assets/fonts/Degarism\ Studio\ -\ Alliance\ No.1\ Light.otf");
+}
+@font-face {
+  font-family: "Alliance No.2", sans-serif;
+  src: url("/assets/fonts/Degarism\ Studio\ -\ Alliance\ No.2\ Light.otf");
+}
+
+:root {
+  /* font */
+  --font-primary: "Alliance No.1", sans-serif;
+
+  /* color */
+  --white: #fff;
+  --black: #27272b;
+  --gray: #95a0b1;
+
+  --primary: #4b8f51;
+  --secondary: #a74040;
+
+  --info-primary: linear-gradient(180deg, #8FB2E5 0%, #7099D7 100%);
+  --info-secondary: linear-gradient(180deg, #FFAE63 0%, #F99258 100%);
+  --info-base: #E2EBF7;
+
+  --bg-base: #f3f5f8;
+  --bg-gray: rgba(149, 158, 185, 0.10);
+  --bg-primary: rgba(226, 247, 228, 0.40);
+  --bg-secondary: rgba(254, 223, 223, 0.4);
+}

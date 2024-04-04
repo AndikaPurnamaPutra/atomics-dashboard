@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>Atomic's</title>
+</head>
+
+<body>
+  <section class="dashboard">
+    <div class="container">
+      <div class="content">
+        <div class="content-nav nav">
+          <a href="#" class="nav-brand">
+            <img src="assets/images/atomics_logo.svg" alt="" class="ic ic-logo">
+            <span>Atomic’s</span>
+          </a>
+          <div class="nav-side">
+            <span class="nav-subtitle">Menu</span>
+            <div class="nav-side-menu menu">
+              <a href="#" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  class="ic ic-nav">
+                  <path
+                    d="M16.875 4.375V9.0625C16.875 9.14538 16.8421 9.22487 16.7835 9.28347C16.7249 9.34208 16.6454 9.375 16.5625 9.375H10.625V3.4375C10.625 3.35462 10.6579 3.27513 10.7165 3.21653C10.7751 3.15792 10.8546 3.125 10.9375 3.125H15.625C15.9565 3.125 16.2745 3.2567 16.5089 3.49112C16.7433 3.72554 16.875 4.04348 16.875 4.375ZM9.0625 3.125H4.375C4.04348 3.125 3.72554 3.2567 3.49112 3.49112C3.2567 3.72554 3.125 4.04348 3.125 4.375V9.0625C3.125 9.14538 3.15792 9.22487 3.21653 9.28347C3.27513 9.34208 3.35462 9.375 3.4375 9.375H9.375V3.4375C9.375 3.35462 9.34208 3.27513 9.28347 3.21653C9.22487 3.15792 9.14538 3.125 9.0625 3.125ZM16.5625 10.625H10.625V16.5625C10.625 16.6454 10.6579 16.7249 10.7165 16.7835C10.7751 16.8421 10.8546 16.875 10.9375 16.875H15.625C15.9565 16.875 16.2745 16.7433 16.5089 16.5089C16.7433 16.2745 16.875 15.9565 16.875 15.625V10.9375C16.875 10.8546 16.8421 10.7751 16.7835 10.7165C16.7249 10.6579 16.6454 10.625 16.5625 10.625ZM3.125 10.9375V15.625C3.125 15.9565 3.2567 16.2745 3.49112 16.5089C3.72554 16.7433 4.04348 16.875 4.375 16.875H9.0625C9.14538 16.875 9.22487 16.8421 9.28347 16.7835C9.34208 16.7249 9.375 16.6454 9.375 16.5625V10.625H3.4375C3.35462 10.625 3.27513 10.6579 3.21653 10.7165C3.15792 10.7751 3.125 10.8546 3.125 10.9375Z"
+                    fill="#95A0B1" />
+                </svg>
+                <span>Dashboard</span>
+              </a>
+              <a href="#" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  class="ic ic-nav">
+                  <path
+                    d="M15.6569 15.32C15.7251 15.4011 15.7688 15.4999 15.7827 15.605C15.7966 15.71 15.7802 15.8168 15.7354 15.9128C15.6906 16.0088 15.6194 16.09 15.53 16.1469C15.4406 16.2038 15.3369 16.234 15.2309 16.2339H3.55583C3.44995 16.2338 3.34628 16.2036 3.25701 16.1466C3.16774 16.0897 3.09659 16.0085 3.05191 15.9125C3.00724 15.8165 2.9909 15.7097 3.00483 15.6048C3.01875 15.4998 3.06236 15.401 3.13052 15.32C4.16877 14.0844 5.45998 13.2067 6.89505 12.7369C6.02352 12.1941 5.35249 11.3822 4.98348 10.424C4.61447 9.46586 4.56757 8.41359 4.84985 7.42641C5.13214 6.43922 5.72827 5.57083 6.54804 4.95262C7.36782 4.3344 8.36663 4 9.39339 4C10.4201 4 11.419 4.3344 12.2387 4.95262C13.0585 5.57083 13.6546 6.43922 13.9369 7.42641C14.2192 8.41359 14.1723 9.46586 13.8033 10.424C13.4343 11.3822 12.7633 12.1941 11.8917 12.7369C13.3268 13.2067 14.618 14.0844 15.6569 15.32ZM19.0657 12.4811C19.0168 12.5658 18.9465 12.636 18.8618 12.6848C18.7771 12.7336 18.6811 12.7593 18.5834 12.7591C18.4858 12.7594 18.3898 12.7338 18.3054 12.6848L17.9809 12.4971C17.8255 12.6304 17.647 12.7338 17.4541 12.8022V13.1761C17.4541 13.3235 17.3955 13.4649 17.2912 13.5692C17.187 13.6735 17.0456 13.732 16.8981 13.732C16.7507 13.732 16.6093 13.6735 16.505 13.5692C16.4007 13.4649 16.3422 13.3235 16.3422 13.1761V12.8022C16.1493 12.7338 15.9707 12.6304 15.8154 12.4971L15.4909 12.6848C15.4064 12.7338 15.3105 12.7594 15.2129 12.7591C15.0905 12.7592 14.9714 12.7188 14.8743 12.6443C14.7772 12.5698 14.7073 12.4653 14.6756 12.347C14.644 12.2288 14.6522 12.1034 14.6991 11.9903C14.746 11.8772 14.8288 11.7827 14.9349 11.7216L15.2587 11.5346C15.2208 11.3335 15.2208 11.127 15.2587 10.9258L14.9349 10.7389C14.8717 10.7024 14.8162 10.6538 14.7718 10.5959C14.7273 10.5379 14.6947 10.4718 14.6758 10.4013C14.6569 10.3308 14.652 10.2572 14.6616 10.1848C14.6711 10.1124 14.6948 10.0426 14.7313 9.97933C14.7678 9.91608 14.8164 9.86065 14.8743 9.81619C14.9322 9.77173 14.9984 9.73911 15.0689 9.7202C15.1394 9.7013 15.213 9.69647 15.2854 9.70599C15.3578 9.71551 15.4276 9.7392 15.4909 9.77571L15.8154 9.96334C15.9707 9.83009 16.1493 9.72666 16.3422 9.65826V9.28438C16.3422 9.13693 16.4007 8.99552 16.505 8.89126C16.6093 8.787 16.7507 8.72842 16.8981 8.72842C17.0456 8.72842 17.187 8.787 17.2912 8.89126C17.3955 8.99552 17.4541 9.13693 17.4541 9.28438V9.65826C17.647 9.72666 17.8255 9.83009 17.9809 9.96334L18.3054 9.77571C18.3686 9.7392 18.4385 9.71551 18.5109 9.70599C18.5833 9.69647 18.6568 9.7013 18.7274 9.7202C18.7979 9.73911 18.864 9.77173 18.9219 9.81619C18.9799 9.86065 19.0285 9.91608 19.065 9.97933C19.1015 10.0426 19.1252 10.1124 19.1347 10.1848C19.1442 10.2572 19.1394 10.3308 19.1205 10.4013C19.1016 10.4718 19.069 10.5379 19.0245 10.5959C18.98 10.6538 18.9246 10.7024 18.8614 10.7389L18.5375 10.9258C18.5755 11.127 18.5755 11.3335 18.5375 11.5346L18.8614 11.7216C18.9247 11.758 18.9802 11.8066 19.0247 11.8645C19.0693 11.9224 19.1019 11.9885 19.1209 12.059C19.1399 12.1296 19.1448 12.2031 19.1353 12.2756C19.1258 12.348 19.1022 12.4179 19.0657 12.4811ZM16.8988 11.7862C17.0088 11.7862 17.1163 11.7536 17.2077 11.6925C17.2991 11.6314 17.3704 11.5446 17.4125 11.443C17.4545 11.3414 17.4655 11.2296 17.4441 11.1218C17.4226 11.0139 17.3697 10.9149 17.2919 10.8371C17.2142 10.7594 17.1151 10.7064 17.0073 10.685C16.8994 10.6635 16.7877 10.6745 16.6861 10.7166C16.5845 10.7587 16.4976 10.8299 16.4366 10.9214C16.3755 11.0128 16.3429 11.1203 16.3429 11.2302C16.3429 11.3777 16.4014 11.5191 16.5057 11.6234C16.61 11.7276 16.7514 11.7862 16.8988 11.7862Z"
+                    fill="#95A0B1" />
+                </svg>
+                <span>Customer</span>
+              </a>
+              <a href="#" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  class="ic ic-nav">
+                  <path
+                    d="M16.875 3.125H3.125C2.79348 3.125 2.47554 3.2567 2.24112 3.49112C2.0067 3.72554 1.875 4.04348 1.875 4.375V15.625C1.875 15.9565 2.0067 16.2745 2.24112 16.5089C2.47554 16.7433 2.79348 16.875 3.125 16.875H16.875C17.2065 16.875 17.5245 16.7433 17.7589 16.5089C17.9933 16.2745 18.125 15.9565 18.125 15.625V4.375C18.125 4.04348 17.9933 3.72554 17.7589 3.49112C17.5245 3.2567 17.2065 3.125 16.875 3.125ZM10 10.625C9.00576 10.624 8.05253 10.2285 7.34949 9.52551C6.64645 8.82247 6.25103 7.86924 6.25 6.875C6.25 6.70924 6.31585 6.55027 6.43306 6.43306C6.55027 6.31585 6.70924 6.25 6.875 6.25C7.04076 6.25 7.19973 6.31585 7.31694 6.43306C7.43415 6.55027 7.5 6.70924 7.5 6.875C7.5 7.53804 7.76339 8.17393 8.23223 8.64277C8.70107 9.11161 9.33696 9.375 10 9.375C10.663 9.375 11.2989 9.11161 11.7678 8.64277C12.2366 8.17393 12.5 7.53804 12.5 6.875C12.5 6.70924 12.5658 6.55027 12.6831 6.43306C12.8003 6.31585 12.9592 6.25 13.125 6.25C13.2908 6.25 13.4497 6.31585 13.5669 6.43306C13.6842 6.55027 13.75 6.70924 13.75 6.875C13.749 7.86924 13.3535 8.82247 12.6505 9.52551C11.9475 10.2285 10.9942 10.624 10 10.625Z"
+                    fill="#95A0B1" />
+                </svg>
+                <span>Sales</span>
+              </a>
+              <a href="#" class="nav-link active">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  class="ic ic-nav">
+                  <path
+                    d="M10 1.875C8.39303 1.875 6.82214 2.35152 5.486 3.24431C4.14985 4.1371 3.10844 5.40605 2.49348 6.8907C1.87852 8.37535 1.71762 10.009 2.03112 11.5851C2.34463 13.1612 3.11846 14.6089 4.25476 15.7452C5.39106 16.8815 6.8388 17.6554 8.4149 17.9689C9.99099 18.2824 11.6247 18.1215 13.1093 17.5065C14.594 16.8916 15.8629 15.8502 16.7557 14.514C17.6485 13.1779 18.125 11.607 18.125 10C18.1227 7.84581 17.266 5.78051 15.7427 4.25727C14.2195 2.73403 12.1542 1.87727 10 1.875ZM10.9375 13.75H10.625V14.375C10.625 14.5408 10.5592 14.6997 10.4419 14.8169C10.3247 14.9342 10.1658 15 10 15C9.83424 15 9.67527 14.9342 9.55806 14.8169C9.44085 14.6997 9.375 14.5408 9.375 14.375V13.75H8.125C7.95924 13.75 7.80027 13.6842 7.68306 13.5669C7.56585 13.4497 7.5 13.2908 7.5 13.125C7.5 12.9592 7.56585 12.8003 7.68306 12.6831C7.80027 12.5658 7.95924 12.5 8.125 12.5H10.9375C11.1861 12.5 11.4246 12.4012 11.6004 12.2254C11.7762 12.0496 11.875 11.8111 11.875 11.5625C11.875 11.3139 11.7762 11.0754 11.6004 10.8996C11.4246 10.7238 11.1861 10.625 10.9375 10.625H9.0625C8.48234 10.625 7.92594 10.3945 7.51571 9.9843C7.10547 9.57406 6.875 9.01766 6.875 8.4375C6.875 7.85734 7.10547 7.30094 7.51571 6.8907C7.92594 6.48047 8.48234 6.25 9.0625 6.25H9.375V5.625C9.375 5.45924 9.44085 5.30027 9.55806 5.18306C9.67527 5.06585 9.83424 5 10 5C10.1658 5 10.3247 5.06585 10.4419 5.18306C10.5592 5.30027 10.625 5.45924 10.625 5.625V6.25H11.875C12.0408 6.25 12.1997 6.31585 12.3169 6.43306C12.4342 6.55027 12.5 6.70924 12.5 6.875C12.5 7.04076 12.4342 7.19973 12.3169 7.31694C12.1997 7.43415 12.0408 7.5 11.875 7.5H9.0625C8.81386 7.5 8.57541 7.59877 8.39959 7.77459C8.22378 7.9504 8.125 8.18886 8.125 8.4375C8.125 8.68614 8.22378 8.9246 8.39959 9.10041C8.57541 9.27623 8.81386 9.375 9.0625 9.375H10.9375C11.5177 9.375 12.0741 9.60547 12.4843 10.0157C12.8945 10.4259 13.125 10.9823 13.125 11.5625C13.125 12.1427 12.8945 12.6991 12.4843 13.1093C12.0741 13.5195 11.5177 13.75 10.9375 13.75Z"
+                    fill="#95A0B1" />
+                </svg>
+                <span>Earnings</span>
+              </a>
+              <a href="#" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  class="ic ic-nav">
+                  <path
+                    d="M18.125 7.5C18.1253 7.44189 18.1174 7.38403 18.1016 7.32812L16.9805 3.40625C16.9051 3.14603 16.7476 2.91716 16.5315 2.75382C16.3153 2.59049 16.0522 2.50145 15.7812 2.5H4.21875C3.94784 2.50145 3.68467 2.59049 3.46853 2.75382C3.25239 2.91716 3.09488 3.14603 3.01953 3.40625L1.89922 7.32812C1.88308 7.38399 1.87493 7.44185 1.875 7.5V8.75C1.875 9.23514 1.98795 9.71362 2.20492 10.1475C2.42188 10.5815 2.73689 10.9589 3.125 11.25V16.25C3.125 16.5815 3.2567 16.8995 3.49112 17.1339C3.72554 17.3683 4.04348 17.5 4.375 17.5H15.625C15.9565 17.5 16.2745 17.3683 16.5089 17.1339C16.7433 16.8995 16.875 16.5815 16.875 16.25V11.25C17.2631 10.9589 17.5781 10.5815 17.7951 10.1475C18.012 9.71362 18.125 9.23514 18.125 8.75V7.5ZM6.875 8.75C6.87489 9.07243 6.79163 9.38938 6.63327 9.67023C6.47492 9.95109 6.24681 10.1864 5.97099 10.3533C5.69516 10.5203 5.38094 10.6133 5.05867 10.6234C4.7364 10.6335 4.41698 10.5603 4.13125 10.4109C4.08777 10.3771 4.03995 10.3492 3.98906 10.3281C3.72428 10.1586 3.50637 9.92524 3.35538 9.64947C3.20439 9.3737 3.12517 9.0644 3.125 8.75V8.125H6.875V8.75ZM11.875 8.75C11.875 9.24728 11.6775 9.72419 11.3258 10.0758C10.9742 10.4275 10.4973 10.625 10 10.625C9.50272 10.625 9.02581 10.4275 8.67418 10.0758C8.32254 9.72419 8.125 9.24728 8.125 8.75V8.125H11.875V8.75ZM16.875 8.75C16.8747 9.06447 16.7954 9.37382 16.6443 9.6496C16.4931 9.92537 16.2751 10.1587 16.0102 10.3281C15.9599 10.3493 15.9127 10.3769 15.8695 10.4102C15.5838 10.5597 15.2644 10.633 14.9421 10.6231C14.6198 10.6131 14.3055 10.5202 14.0296 10.3533C13.7536 10.1864 13.5254 9.95115 13.367 9.6703C13.2085 9.38944 13.1252 9.07247 13.125 8.75V8.125H16.875V8.75Z"
+                    fill="#95A0B1" />
+                </svg>
+                <span>My Store</span>
+              </a>
+              <a href="#" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  class="ic ic-nav">
+                  <path
+                    d="M16.875 10.1687C16.8781 10.0562 16.8781 9.94375 16.875 9.83125L18.0406 8.375C18.1017 8.29854 18.144 8.20879 18.1641 8.11299C18.1842 8.01718 18.1815 7.918 18.1562 7.82343C17.9648 7.10527 17.679 6.41567 17.3062 5.77265C17.2574 5.68853 17.1896 5.61696 17.1082 5.56366C17.0268 5.51036 16.9341 5.47679 16.8375 5.46562L14.9844 5.25937C14.9073 5.17812 14.8291 5.1 14.75 5.025L14.5312 3.16719C14.52 3.07048 14.4863 2.97773 14.4328 2.89635C14.3794 2.81497 14.3077 2.74719 14.2234 2.69844C13.5804 2.32597 12.8908 2.04066 12.1726 1.85C12.0781 1.82473 11.9789 1.82203 11.8831 1.84212C11.7873 1.8622 11.6975 1.9045 11.6211 1.96562L10.1687 3.125C10.0562 3.125 9.94372 3.125 9.83122 3.125L8.37497 1.96172C8.29851 1.9006 8.20877 1.85829 8.11297 1.83821C8.01716 1.81813 7.91798 1.82083 7.82341 1.84609C7.10525 2.03752 6.41564 2.32334 5.77263 2.69609C5.6885 2.74494 5.61694 2.81275 5.56364 2.89413C5.51034 2.97551 5.47677 3.0682 5.4656 3.16484L5.25935 5.02109C5.1781 5.0987 5.09997 5.17682 5.02497 5.25547L3.16716 5.46875C3.07045 5.48 2.97771 5.51369 2.89633 5.56713C2.81494 5.62057 2.74717 5.69229 2.69841 5.77656C2.32603 6.41966 2.04047 7.10925 1.84919 7.82734C1.82403 7.92197 1.82146 8.02119 1.84168 8.11699C1.8619 8.2128 1.90435 8.30251 1.9656 8.3789L3.12497 9.83125C3.12497 9.94375 3.12497 10.0562 3.12497 10.1687L1.96169 11.625C1.90057 11.7015 1.85827 11.7912 1.83819 11.887C1.8181 11.9828 1.8208 12.082 1.84607 12.1766C2.0375 12.8947 2.32332 13.5843 2.69607 14.2273C2.74492 14.3115 2.81273 14.383 2.89411 14.4363C2.97548 14.4896 3.06818 14.5232 3.16482 14.5344L5.01794 14.7406C5.09555 14.8219 5.17367 14.9 5.25232 14.975L5.46872 16.8328C5.47998 16.9295 5.51367 17.0223 5.56711 17.1036C5.62055 17.185 5.69227 17.2528 5.77654 17.3016C6.41963 17.6739 7.10923 17.9595 7.82732 18.1508C7.92195 18.1759 8.02116 18.1785 8.11697 18.1583C8.21277 18.1381 8.30249 18.0956 8.37888 18.0344L9.83122 16.875C9.94372 16.8781 10.0562 16.8781 10.1687 16.875L11.625 18.0406C11.7014 18.1017 11.7912 18.144 11.887 18.1641C11.9828 18.1842 12.082 18.1815 12.1765 18.1562C12.8948 17.9652 13.5845 17.6793 14.2273 17.3062C14.3114 17.2574 14.383 17.1896 14.4363 17.1082C14.4896 17.0268 14.5232 16.9341 14.5343 16.8375L14.7406 14.9844C14.8218 14.9073 14.9 14.8292 14.975 14.75L16.8328 14.5312C16.9295 14.52 17.0222 14.4863 17.1036 14.4329C17.185 14.3794 17.2528 14.3077 17.3015 14.2234C17.6739 13.5803 17.9595 12.8907 18.1508 12.1727C18.1759 12.078 18.1785 11.9788 18.1583 11.883C18.138 11.7872 18.0956 11.6975 18.0343 11.6211L16.875 10.1687ZM9.99998 13.125C9.38191 13.125 8.77772 12.9417 8.26382 12.5983C7.74991 12.255 7.34937 11.7669 7.11285 11.1959C6.87633 10.6249 6.81444 9.99653 6.93502 9.39034C7.0556 8.78415 7.35323 8.22733 7.79027 7.79029C8.2273 7.35325 8.78413 7.05562 9.39032 6.93504C9.99651 6.81446 10.6248 6.87635 11.1959 7.11287C11.7669 7.3494 12.2549 7.74994 12.5983 8.26384C12.9417 8.77774 13.125 9.38193 13.125 10C13.125 10.8288 12.7957 11.6237 12.2097 12.2097C11.6236 12.7958 10.8288 13.125 9.99998 13.125Z"
+                    fill="#95A0B1" />
+                </svg>
+                <span>Settings</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="content-main main">
+          <div class="main-navigation">
+            <h2 class="main-navigation-title display-lg">Earnings</h2>
+            <div class="navigation-wrap">
+              <div class="search">
+                <form action="">
+                  <img src="/assets/images/atomics_ic-search.svg" alt="" class="ic ic-search">
+                  <input type="search" placeholder="Search here">
+                </form>
+              </div>
+              <div class="notification">
+                <div class="active"></div>
+                <img src="./assets/images/atomics_ic-notification.svg" alt="" class="ic ic-notification">
+              </div>
+              <div class="profile">
+                <div class="profile-wrap">
+                  <img src="/assets/images/atomics_img-profile_nav.png" alt="" class="img img-profile">
+                </div>
+                <div class="profile-subtext subtext">
+                  <p class="subtext-name">Oliver Reed</p>
+                  <span class="subtext-status">Verified</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-wrapper">
+            <div class="wrapper-grafik">
+              <div class="category">
+                <div class="category-item item">
+                  <div class="icon-category">
+                    <img src="/assets/images/atomics_ic-goals.svg" alt="" class="ic ic-category">
+                  </div>
+                  <div class="item-body">
+                    <span class="text-span">Goals</span>
+                    <h4 class="text-display">$ 2,718.55</h4>
+                  </div>
+                </div>
+                <div class="category-item item">
+                  <div class="icon-category">
+                    <img src="/assets/images/atomics_ic-revenue.svg" alt="" class="ic ic-category">
+                  </div>
+                  <div class="item-body">
+                    <span class="text-span">Revenue</span>
+                    <h4 class="text-display">$ 1,677.42</h4>
+                  </div>
+                </div>
+                <div class="category-item item">
+                  <div class="icon-category">
+                    <img src="/assets/images/atomics_ic-expenses.svg" alt="" class="ic ic-category">
+                  </div>
+                  <div class="item-body">
+                    <span class="text-span">Expenses</span>
+                    <h4 class="text-display">$328.85</h4>
+                  </div>
+                </div>
+                <div class="category-item item">
+                  <div class="icon-category">
+                    <img src="/assets/images/atomics_ic-profit.svg" alt="" class="ic ic-category">
+                  </div>
+                  <div class="item-body">
+                    <span class="text-span">Total Profit</span>
+                    <h4 class="text-display">$ 1,348.57</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-monthly">
+                <div class="chart-indikator">
+                  <div class="subtext">
+                    <span class="text-span">Total Earnings</span>
+                    <h4 class="text-display display-xl">$779.58</h4>
+                  </div>
+                  <div class="indikator-wrap">
+                    <div class="item-indikator">
+                      <div class="circle-indikator info-primary"></div>
+                      <span class="text-indikator">Income</span>
+                    </div>
+                    <div class="item-indikator">
+                      <div class="circle-indikator"></div>
+                      <span class="text-indikator">Outcome</span>
+                    </div>
+                    <div class="filter">
+                      <select name="" id="">
+                        <option value="option-1">2023</option>
+                        <option value="option-1">2022</option>
+                        <option value="option-1">2021</option>
+                        <option value="option-1">2020</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="chart-grafik">
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Jan</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Feb</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Mar</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Apr</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">May</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Jun</span>
+                    <div class="chack-rate">
+                      <div class="wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                          <path
+                            d="M8.4853 1.42894C8.4853 0.538035 7.40816 0.0918663 6.77819 0.72183L0.707111 6.79289C0.316586 7.18341 0.316586 7.81657 0.70711 8.2071L6.77818 14.2782C7.40814 14.9081 8.48529 14.462 8.48529 13.5711L8.4853 1.42894Z"
+                            fill="white" />
+                        </svg>
+                        <div class="item-indikator">
+                          <div class="circle-indikator info-primary"></div>
+                          <span class="text-span span-sm">June</span>
+                        </div>
+                        <h5 class="text-display">$ 1,625.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Jul</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Aug</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Sept</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Oct</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Nov</span>
+                  </div>
+                  <div class="item-grafik">
+                    <div class="grafik-line">
+                      <div class="line-income"></div>
+                      <div class="line-outcome"></div>
+                    </div>
+                    <span class="text-span span-sm">Dec</span>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-items">
+                <div class="item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="154" height="154" viewBox="0 0 154 154" fill="none">
+                    <path
+                      d="M153.229 77.0625C153.229 119.312 118.979 153.562 76.7292 153.562C34.4794 153.562 0.229156 119.312 0.229156 77.0625C0.229156 34.8127 34.4794 0.5625 76.7292 0.5625C118.979 0.5625 153.229 34.8127 153.229 77.0625ZM38.4792 77.0625C38.4792 98.1874 55.6043 115.312 76.7292 115.312C97.854 115.312 114.979 98.1874 114.979 77.0625C114.979 55.9376 97.854 38.8125 76.7292 38.8125C55.6043 38.8125 38.4792 55.9376 38.4792 77.0625Z"
+                      fill="url(#paint0_linear_1_334)" fill-opacity="0.1" />
+                    <path
+                      d="M76.7292 0.5625C92.8844 0.5625 108.625 5.6769 121.695 15.1727C134.765 24.6685 144.493 38.0582 149.485 53.4227L113.107 65.2426C110.611 57.5603 105.747 50.8655 99.2119 46.1176C92.677 41.3697 84.8068 38.8125 76.7292 38.8125V0.5625Z"
+                      fill="url(#paint1_linear_1_334)" />
+                    <path
+                      d="M149.485 53.4227C153.845 66.8405 154.409 81.2026 151.115 94.9211C147.822 108.64 140.799 121.18 130.823 131.156C120.847 141.132 108.306 148.155 94.5878 151.449C80.8693 154.742 66.5072 154.178 53.0894 149.818L64.9093 113.44C71.6182 115.62 78.7992 115.902 85.6585 114.256C92.5177 112.609 98.788 109.097 103.776 104.109C108.764 99.1213 112.276 92.851 113.922 85.9918C115.569 79.1325 115.287 71.9515 113.107 65.2426L149.485 53.4227Z"
+                      fill="url(#paint2_linear_1_334)" />
+                    <defs>
+                      <linearGradient id="paint0_linear_1_334" x1="76.7292" y1="0.5625" x2="76.7292" y2="153.562"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#B49DE7" />
+                        <stop offset="1" stop-color="#9474DD" />
+                      </linearGradient>
+                      <linearGradient id="paint1_linear_1_334" x1="76.7292" y1="0.5625" x2="76.7292" y2="153.562"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FFAE63" />
+                        <stop offset="1" stop-color="#F99258" />
+                      </linearGradient>
+                      <linearGradient id="paint2_linear_1_334" x1="76.7292" y1="0.5625" x2="76.7292" y2="153.562"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#8FB2E6" />
+                        <stop offset="1" stop-color="#7099D7" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <div class="item-body">
+                    <div class="wrap">
+                      <span class="text-span">Earnings Goals</span>
+                      <h4 class="text-display">$525,834.12</h4>
+                    </div>
+                    <div class="indikator-wrap">
+                      <div class="item-indikator">
+                        <div class="circle-indikator info-primary"></div>
+                        <span class="text-indikator">Product Sales</span>
+                      </div>
+                      <div class="item-indikator">
+                        <div class="circle-indikator info-secondary"></div>
+                        <span class="text-indikator">Cashback</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="item-subtext">
+                    <div class="subtext">
+                      <span class="text-span">Monthly</span>
+                      <h4 class="text-display">$475.22</h4>
+                    </div>
+                    <div class="indikator">
+                      <img src="/assets/images/atomics_ic-trending-up.svg" alt="" class="ic ic-trand">
+                      <span class="text-span span-sm text-indikator-up">29.16% from last month</span>
+                    </div>
+                  </div>
+                  <div class="item-trand">
+                    <span class="text-span">June</span>
+                    <div class="item-trand-chart">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="176" height="137" viewBox="0 0 176 137"
+                        fill="none">
+                        <path d="M6.00031 6L83.3422 99.3889L168 129" stroke="url(#paint0_linear_1_374)"
+                          stroke-width="3.5" stroke-linecap="round" />
+                        <circle cx="6.83163" cy="6.83133" r="5.08133" fill="white" stroke="url(#paint1_linear_1_374)"
+                          stroke-width="3.5" />
+                        <circle cx="85.8316" cy="101.831" r="5.08133" fill="white" stroke="url(#paint2_linear_1_374)"
+                          stroke-width="3.5" />
+                        <circle cx="168.832" cy="129.831" r="5.08133" fill="white" stroke="url(#paint3_linear_1_374)"
+                          stroke-width="3.5" />
+                        <defs>
+                          <linearGradient id="paint0_linear_1_374" x1="87.0003" y1="6" x2="87.0003" y2="129"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8FB2E6" />
+                            <stop offset="1" stop-color="#7099D7" />
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_1_374" x1="6.83163" y1="0" x2="6.83163" y2="13.6627"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8FB2E6" />
+                            <stop offset="1" stop-color="#7099D7" />
+                          </linearGradient>
+                          <linearGradient id="paint2_linear_1_374" x1="85.8316" y1="95" x2="85.8316" y2="108.663"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8FB2E6" />
+                            <stop offset="1" stop-color="#7099D7" />
+                          </linearGradient>
+                          <linearGradient id="paint3_linear_1_374" x1="168.832" y1="123" x2="168.832" y2="136.663"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8FB2E6" />
+                            <stop offset="1" stop-color="#7099D7" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <div class="wrap">
+                        <div class="wrap-item">
+                          <span class="text-span span-sm">20</span>
+                          <div class="line-border"></div>
+                        </div>
+                        <div class="wrap-item">
+                          <span class="text-span span-sm">21</span>
+                          <div class="line-border"></div>
+                        </div>
+                        <div class="wrap-item">
+                          <span class="text-span span-sm">22</span>
+                          <div class="line-border"></div>
+                        </div>
+                        <div class="wrap-item">
+                          <span class="text-span span-sm">23</span>
+                          <div class="line-border"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="item-subtext">
+                    <div class="subtext">
+                      <span class="text-span">Yearly</span>
+                      <h4 class="text-display">$854.08</h4>
+                    </div>
+                    <div class="indikator">
+                      <img src="/assets/images/atomics_ic-trending-down.svg" alt="" class="ic ic-trand">
+                      <span class="text-span span-sm text-indikator-down">14.76% from last year</span>
+                    </div>
+                  </div>
+                  <div class="item-trand">
+                    <span class="text-span">2023</span>
+                    <div class="item-trand-chart">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="179" height="141" viewBox="0 0 179 141"
+                        fill="none">
+                        <path d="M11.9996 10L79.4996 90.5L174 134.5" stroke="url(#paint0_linear_1_405)"
+                          stroke-width="3.5" stroke-linecap="round" />
+                        <circle cx="78.831" cy="89.8313" r="5.08133" fill="white" stroke="url(#paint1_linear_1_405)"
+                          stroke-width="3.5" />
+                        <circle cx="171.831" cy="133.831" r="5.08133" fill="white" stroke="url(#paint2_linear_1_405)"
+                          stroke-width="3.5" />
+                        <circle cx="11.831" cy="9.83133" r="5.08133" fill="white" stroke="url(#paint3_linear_1_405)"
+                          stroke-width="3.5" />
+                        <defs>
+                          <linearGradient id="paint0_linear_1_405" x1="92.9996" y1="10" x2="92.9996" y2="134.5"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFAE63" />
+                            <stop offset="1" stop-color="#F99258" />
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_1_405" x1="78.831" y1="83" x2="78.831" y2="96.6627"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFAE63" />
+                            <stop offset="1" stop-color="#F99258" />
+                          </linearGradient>
+                          <linearGradient id="paint2_linear_1_405" x1="171.831" y1="127" x2="171.831" y2="140.663"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFAE63" />
+                            <stop offset="1" stop-color="#F99258" />
+                          </linearGradient>
+                          <linearGradient id="paint3_linear_1_405" x1="11.831" y1="3" x2="11.831" y2="16.6627"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFAE63" />
+                            <stop offset="1" stop-color="#F99258" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <div class="wrap">
+                        <div class="wrap-item">
+                          <span class="text-span span-sm">Jan</span>
+                          <div class="line-border"></div>
+                        </div>
+                        <div class="wrap-item">
+                          <span class="text-span span-sm">Feb</span>
+                          <div class="line-border"></div>
+                        </div>
+                        <div class="wrap-item">
+                          <span class="text-span span-sm">Mar</span>
+                          <div class="line-border"></div>
+                        </div>
+                        <div class="wrap-item">
+                          <span class="text-span span-sm">Apr</span>
+                          <div class="line-border"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper-payment">
+              <div class="item item-card">
+                <img src="/assets/images/atomics_id-card.svg" alt="" class="img">
+                <div class="item-card-body">
+                  <div class="wrap">
+                    <span class="text-span">Withdrawn</span>
+                    <div class="wrap-index">
+                      <h4 class="text-display">$328.85</h4>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="12" fill="#E2F7E4" />
+                        <path
+                          d="M17.8489 10.9485L12.6978 16.5037C12.6499 16.5554 12.5931 16.5964 12.5306 16.6243C12.468 16.6523 12.401 16.6667 12.3333 16.6667C12.2656 16.6667 12.1986 16.6523 12.1361 16.6243C12.0735 16.5964 12.0167 16.5554 11.9689 16.5037L6.81773 10.9485C6.74561 10.8709 6.69649 10.7718 6.67658 10.664C6.65667 10.5562 6.66687 10.4444 6.70589 10.3429C6.74491 10.2413 6.811 10.1545 6.89578 10.0935C6.98057 10.0324 7.08024 9.99991 7.18218 10H17.4845C17.5864 9.99991 17.6861 10.0324 17.7709 10.0935C17.8556 10.1545 17.9217 10.2413 17.9608 10.3429C17.9998 10.4444 18.01 10.5562 17.9901 10.664C17.9702 10.7718 17.921 10.8709 17.8489 10.9485Z"
+                          fill="#4B8F51" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span">Transferred</span>
+                    <div class="wrap-index">
+                      <h4 class="text-display">$943.65</h4>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="12" transform="matrix(1 0 0 -1 0 24)" fill="#FEDFDF" />
+                        <path
+                          d="M17.8489 13.0515L12.6978 7.49626C12.65 7.44461 12.5931 7.40363 12.5306 7.37568C12.4681 7.34772 12.401 7.33333 12.3334 7.33333C12.2657 7.33333 12.1986 7.34772 12.1361 7.37568C12.0736 7.40363 12.0167 7.44461 11.9689 7.49626L6.81776 13.0515C6.74564 13.1291 6.69652 13.2282 6.67661 13.336C6.6567 13.4438 6.6669 13.5556 6.70592 13.6571C6.74494 13.7587 6.81103 13.8455 6.89581 13.9065C6.9806 13.9676 7.08027 14.0001 7.18221 14H17.4845C17.5864 14.0001 17.6861 13.9676 17.7709 13.9065C17.8557 13.8455 17.9218 13.7587 17.9608 13.6571C17.9998 13.5556 18.01 13.4438 17.9901 13.336C17.9702 13.2282 17.9211 13.1291 17.8489 13.0515Z"
+                          fill="#A74040" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-top">
+                  <div class="profile">
+                    <img src="/assets/images/atomics_img-profile_item-1.png" alt="" class="img">
+                    <div class="wrap">
+                      <span class="text-span">Jane Cooper</span>
+                      <span class="span-sm">jane@gmail.com</span>
+                    </div>
+                  </div>
+                  <span class="span-sm status success">Success</span>
+                </div>
+                <div class="item-bottom">
+                  <div class="wrap">
+                    <span class="text-span span-sm">Date</span>
+                    <span class="text-span">May 21, 2023</span>
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span span-sm">Method</span>
+                    <img src="/assets/images/atomics_logo-wise.svg" alt="" class="img">
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span span-sm">Ammount</span>
+                    <span class="text-span">$293.01</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-top">
+                  <div class="profile">
+                    <img src="/assets/images/atomics_img-profile_item-2.png" alt="" class="img">
+                    <div class="wrap">
+                      <span class="text-span">Arlene McCoy</span>
+                      <span class="span-sm">arlene@gmail.com</span>
+                    </div>
+                  </div>
+                  <span class="span-sm status cancelled">Cancelled</span>
+                </div>
+                <div class="item-bottom">
+                  <div class="wrap">
+                    <span class="text-span span-sm">Date</span>
+                    <span class="text-span">May 20, 2023</span>
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span span-sm">Method</span>
+                    <img src="/assets/images/atomics_logo-paypal.svg" alt="" class="img">
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span span-sm">Ammount</span>
+                    <span class="text-span">$739.65</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-top">
+                  <div class="profile">
+                    <img src="/assets/images/atomics_img-profile_item-3.png" alt="" class="img">
+                    <div class="wrap">
+                      <span class="text-span">Jacob Jones</span>
+                      <span class="span-sm">jacob@gmail.com</span>
+                    </div>
+                  </div>
+                  <span class="span-sm status success">Success</span>
+                </div>
+                <div class="item-bottom">
+                  <div class="wrap">
+                    <span class="text-span span-sm">Date</span>
+                    <span class="text-span">May 20, 2023</span>
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span span-sm">Method</span>
+                    <img src="/assets/images/atomics_logo-wise.svg" alt="" class="img">
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span span-sm">Ammount</span>
+                    <span class="text-span">$576.28</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-top">
+                  <div class="profile">
+                    <img src="/assets/images/atomics_img-profile_item-4.png" alt="" class="img">
+                    <div class="wrap">
+                      <span class="text-span">Kathryn Murphy</span>
+                      <span class="span-sm">murphy@gmail.com</span>
+                    </div>
+                  </div>
+                  <span class="span-sm status success">Success</span>
+                </div>
+                <div class="item-bottom">
+                  <div class="wrap">
+                    <span class="text-span span-sm">Date</span>
+                    <span class="text-span">May 19, 2023</span>
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span span-sm">Method</span>
+                    <img src="/assets/images/atomics_logo-wise.svg" alt="" class="img">
+                  </div>
+                  <div class="wrap">
+                    <span class="text-span span-sm">Ammount</span>
+                    <span class="text-span">$202.87</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
