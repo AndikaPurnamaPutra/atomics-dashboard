@@ -39,9 +39,15 @@
     min-width: unset;
   }
 
+  .dashboard .main-wrapper .wrapper-grafik .category .category-item .item-body .text-display {
+    font-size: 20px;
+  }
+
   .dashboard .main-wrapper .wrapper-grafik .chart-items .item {
     min-width: unset;
   }
+
+
 }
 
 @media (max-width: 575.98px) {
