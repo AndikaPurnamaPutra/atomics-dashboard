@@ -155,6 +155,11 @@ body {
   object-fit: cover;
 }
 
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .container {
   max-width: 1440px;
   width: 100%;
@@ -517,8 +522,12 @@ input:focus,
   justify-content: space-between;
   align-items: flex-end;
   gap: 16px;
-  min-height: 193px;
 }
+
+.chart-grafik canvas {
+  max-height: 186px;
+}
+
 .chart-grafik .item-grafik {
   display: inline-flex;
   flex-direction: column;
@@ -747,6 +756,15 @@ input:focus,
   background-color: var(--white);
   border-radius: 16px;
   min-width: 246px;
+}
+
+.chart-items .item canvas {
+  max-height: 183px;
+}
+
+.chart-items .item:nth-child(1) canvas {
+  max-height: 152px;
+  max-width: 152px;
 }
 
 .chart-items .item:nth-child(1) {

@@ -1,0 +1,114 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .dashboard .content .content-nav {
+    width: 20%;
+  }
+
+  .dashboard .content-main .main-wrapper .wrapper-grafik {
+    width: 100%;
+  }
+
+  .dashboard .content-main .main-wrapper .wrapper-grafik .chart-monthly .chart-grafik canvas {
+    max-height: 336px;
+  }
+
+  .dashboard .content-main .main-wrapper .wrapper-payment .item {
+    gap: 36px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .dashboard .main-wrapper {
+    flex-direction: column;
+  }
+
+  .dashboard .main-wrapper .wrapper-payment {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .dashboard .content {
+    flex-direction: column;
+  }
+
+  .dashboard .main-wrapper .wrapper-grafik .category .category-item {
+    min-width: unset;
+  }
+
+  .dashboard .main-wrapper .wrapper-grafik .chart-items .item {
+    min-width: unset;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    padding-inline: 16px;
+  }
+
+  .dashboard .content-main .main-navigation {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .dashboard .content-main .main-navigation .navigation-wrap {
+    justify-content: space-between;
+  }
+
+  .dashboard .content-main .main-navigation .navigation-wrap .search {
+    min-width: unset;
+  }
+
+  .dashboard .content-main .main-navigation .navigation-wrap .profile {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .dashboard
+    .content-main
+    .main-navigation
+    .navigation-wrap
+    .profile
+    .profile-subtext {
+    display: none;
+  }
+
+  .dashboard .main-wrapper .wrapper-grafik .category {
+    flex-direction: column;
+  }
+
+  .dashboard .main-wrapper .wrapper-grafik .category .category-item {
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .dashboard .main-wrapper .wrapper-grafik .category .category-item .item-body {
+    align-items: center;
+  }
+
+  .dashboard .main-wrapper .wrapper-grafik .chart-monthly .chart-indikator {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .dashboard
+    .main-wrapper
+    .wrapper-grafik
+    .chart-monthly
+    .chart-indikator
+    .indikator-wrap {
+    width: 100%;
+  }
+
+  .dashboard .main-wrapper .wrapper-grafik .chart-items {
+    grid-template-columns: repeat(1, auto);
+  }
+}
